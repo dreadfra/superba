@@ -1,0 +1,27 @@
+<?php
+	$names = array(
+		'anno'   => "anno",
+                'link_strava'   => "link_strava"
+	);
+
+	$values = array();
+
+	foreach ( $names as $key => $name ) {
+		$values[$key] = get_post_meta( $post_id, $name, true );
+	}
+?>
+
+<div class="thb-field thb-page-field">
+	<div class="thb-corridore-link">
+		<div>
+			<label for="<?php echo esc_attr( $names['anno'] ); ?>">Anno di Nascita</label>
+                        <input type="text" placeholder="anno di nascita" value="<?php echo esc_attr( $values['anno'] ); ?>" id="<?php echo esc_attr( $names['anno'] ); ?>" name="<?php echo esc_attr( $names['anno'] ); ?>">
+		</div>
+                <div>
+			<label for="<?php echo esc_attr( $names['link_strava'] ); ?>">URL Profilo di Strava</label>
+                        <input type="text" placeholder="URL Profilo di Strava" value="<?php echo esc_attr( $values['link_strava'] ); ?>" id="<?php echo esc_attr( $names['link_strava'] ); ?>" name="<?php echo esc_attr( $names['link_strava'] ); ?>">
+		</div>
+	</div>
+
+	
+</div>
