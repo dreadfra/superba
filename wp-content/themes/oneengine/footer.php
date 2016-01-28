@@ -150,8 +150,6 @@
 			</ul>
 			<div class="copyright">
 				<?php echo nl2br(oneengine_option('copyright')); ?>
-				<br>
-				New release: <a href="https://www.enginethemes.com/themes/estateengine" target="_blank">Real Estate WordPress Theme</a>. Designed by <a href="http://www.enginethemes.com"  target="_blank">EngineThemes</a>.
 			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

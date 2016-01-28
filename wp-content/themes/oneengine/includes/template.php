@@ -51,12 +51,13 @@ function oe_main_slider($numbers = -1){
         while ($query->have_posts()) {
             $query->the_post();
             $slide_color = get_post_meta( $post->ID, 'oe_slider_bg', true );
+                
     ?>
         <div class="item slider-info" style="background-color:<?php echo $slide_color; ?>;">
             <div class="text-slider">
                 <?php 
 					the_content(); 
-					echo '<a href="#" id="scroll_to"><span class="scroll-down"><span class="img-scroll-down"></span></span>'.__('see what we can do for you.','oneengine') .'</a>';
+					//echo '<a href="#" id="scroll_to"><span class="scroll-down"><span class="img-scroll-down"></span></span>'.__('see what we can do for you.','oneengine') .'</a>';
 				?>
             </div>
             <?php the_post_thumbnail( 'full' ); ?>

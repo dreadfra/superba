@@ -191,7 +191,7 @@ class OneEngine{
 			'footer_nav'=>__('Footer Nav'),
 			)
 		);		
-		/*
+		
 		$s_labels = array(
 			'name'               => _x( 'Sliders', 'post type general name', 'oneengine' ),
 			'singular_name'      => _x( 'Slider', 'post type singular name', 'oneengine' ),
@@ -225,7 +225,7 @@ class OneEngine{
 		);
 
 		register_post_type( 'slider', $s_args );
-
+                /*
 		$p_labels = array(
 			'name'               => _x( 'Portfolios', 'post type general name', 'oneengine' ),
 			'singular_name'      => _x( 'Portfolio', 'post type singular name', 'oneengine' ),

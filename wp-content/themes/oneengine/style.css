@@ -285,7 +285,7 @@ a, a:hover{
 	height: auto;
 }
 .text-slider{
-	width:570px;
+	width:80%;
 	position:absolute;
 	left:15%;
 	top:20%;
@@ -298,12 +298,12 @@ a, a:hover{
 	        transition: all 1s ease;
 }
 .owl-item.active .item .text-slider{
-	left:20%;
+	
 	opacity:1;
 }
 .text-slider p{
 	line-height:1.2;
-	font-size:65px;
+	font-size:25px;
 	color: #fefeff;
 }
 .scroll-down{
@@ -503,6 +503,7 @@ h1.title-blog a{
 .blog-header {
 	width: 100%;
 	overflow: hidden;
+        
 }
 .blog-header img {
 	max-width: 100%;
@@ -1241,6 +1242,7 @@ header{
 	width:100%;
 	position:relative;
 	border-bottom:1px solid #bdc3c7;
+        background-color: #22b31b;
 }
 /* --------- MENU -------- */
 #main-menu-top{
@@ -1967,10 +1969,11 @@ footer {
 		padding: 27px 10px;
 	}
 	.text-slider {
-		width:400px;
+		width:80%;
 	}
 	.text-slider p {
-		font-size:40px;
+		font-size:25px;
+                line-height:1.5;
 	}
 	.image-team-wrapper{
 		float: none;
@@ -2038,6 +2041,10 @@ footer {
 		-webkit-transform: scale(1) !important;
 		transform: scale(1) !important;
 	}
+        .logo-wrapper img{
+            height: 39px;
+            margin-top: 20px;
+        }
 }
 @media (max-width: 768px){
 	.et-post-data-left{
@@ -2059,7 +2066,7 @@ footer {
 		display:block !important;
 	}
 	.text-slider {
-		width:250px;
+		width:80%;
 	}
 	.text-slider p {
 		font-size: 20px;
@@ -2074,6 +2081,11 @@ footer {
 	#test_avatar .owl-wrapper-outer {
 		height: 165px;
 	}
+        .logo-wrapper img{
+            height: 39px;
+            margin-top: 20px;
+        }
+        
 	
 }
 @media (max-width: 599px){
@@ -2084,6 +2096,10 @@ footer {
 	#test_avatar .owl-wrapper-outer {
 		height: 165px;
 	}
+        .logo-wrapper img{
+            height: 39px;
+            margin-top: 20px;
+        }
 }
 @media (max-width: 480px){
 	.counter-wrapper .counter.col-md-3{
@@ -2100,6 +2116,7 @@ footer {
 	a#scroll_to, .text-slider {
 		/*display:none;*/
 		margin-top: 5px;
+                width: 80%;
 	}
 	#test_content .item p{
 		width:100%;
@@ -2108,9 +2125,9 @@ footer {
 		width:90%;
 	}
 	.text-slider p {
-		font-size: 14px;
+		font-size: 20px;
 		line-height: 1.5;
-		max-width: 56%;
+		/*max-width: 56%;*/
 	}
 	ul.portfolio-category li {
 		width: 50%;
